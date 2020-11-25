@@ -1,0 +1,48 @@
+    h1 {
+        color: #3C153B;
+        background-color:#F1B5CB;
+    }
+
+    img.Camel{
+        border-radius: 50px;
+        
+    }
+
+    body{
+        background-color:#8FCB9B;
+        
+        
+    }
+    
+    img.Panda{
+        border-radius: 50px;
+        
+    }
+
+    a.AboutUs{
+        display: grid;
+        justify-content: flex-start;
+    }
+
+    a.FollowUs{
+        display: flex;  
+    }
+
+    img.Chameleon{
+        border-radius: 50px;
+    }
+
+
+    * {
+        box-sizing: border-box;
+        border-radius: 50px;
+    }
+    .column{
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+    }
+    .row::after{
+        display: table;
+        
+    }
